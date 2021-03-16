@@ -1,4 +1,4 @@
-package hu.nive.ujratervezes.zarovizsga.digitcounter;
+package hu.nive.ujratervezes.zarovizsga.digitscounter;
 
 import java.util.*;
 
