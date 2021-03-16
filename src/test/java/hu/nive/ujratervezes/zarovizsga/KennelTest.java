@@ -1,5 +1,6 @@
 package hu.nive.ujratervezes.zarovizsga;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -10,15 +11,15 @@ class KennelTest {
 
     Kennel kennel = new Kennel();
 
-//    @BeforeEach
-//    void init() {
-//        Beagle beagle = new Beagle("Bigli");
-//        kennel.addDog(beagle);
-//        Husky husky = new Husky("Morzsi");
-//        kennel.addDog(husky);
-//        Husky husky2 = new Husky("Zokni");
-//        kennel.addDog(husky2);
-//    }
+    @BeforeEach
+    void init() {
+        Beagle beagle = new Beagle("Bigli");
+        kennel.addDog(beagle);
+        Husky husky = new Husky("Morzsi");
+        kennel.addDog(husky);
+        Husky husky2 = new Husky("Zokni");
+        kennel.addDog(husky2);
+    }
 
     @Test
     void testAddDog() {
