@@ -1,13 +1,14 @@
-package hu.nive.ujratervezes.zarovizsga;
+package hu.nive.ujratervezes.zarovizsga.dogs;
 
-public class Beagle extends Dog {
+public class Husky extends Dog {
 
     private int happiness;
 
-    public Beagle(String name) {
+    public Husky(String name) {
         super(name);
         this.happiness = super.getHappiness();
     }
+
 
     @Override
     public int getHappiness() {
@@ -16,11 +17,11 @@ public class Beagle extends Dog {
 
     @Override
     void feed() {
-        happiness += 2;
+        happiness += 4;
     }
 
     @Override
     void play(int hours) {
-        happiness += (hours * 2);
+        happiness += (hours * 3);
     }
 }

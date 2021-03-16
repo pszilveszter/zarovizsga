@@ -1,4 +1,4 @@
-package hu.nive.ujratervezes.zarovizsga;
+package hu.nive.ujratervezes.zarovizsga.dogs;
 
 public abstract class Dog {
     private String name;

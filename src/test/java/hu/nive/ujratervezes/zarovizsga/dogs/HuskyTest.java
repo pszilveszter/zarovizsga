@@ -1,5 +1,6 @@
-package hu.nive.ujratervezes.zarovizsga;
+package hu.nive.ujratervezes.zarovizsga.dogs;
 
+import hu.nive.ujratervezes.zarovizsga.dogs.Husky;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
